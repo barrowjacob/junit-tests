@@ -24,12 +24,12 @@ public class CohortsTest {
         System.out.println();
     }
 
-    @Test
-    public void findStudentByIdTest(){
-        Cohort newCohort = new Cohort();
-        Student james = new Student("james",2);
-        newCohort.addStudent(james);
+//    @Test
+//    public void findStudentByIdTest(){
+//        Cohort newCohort = new Cohort();
+//        Student james = new Student("james",2);
+//        newCohort.addStudent(james);
 //        assertEquals("james", newCohort.findStudent(2).getName());
-
-    }
+//
+//    }
 }
