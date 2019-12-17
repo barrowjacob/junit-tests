@@ -29,7 +29,7 @@ public class Student {
             gradeTotal += grad;
         } return gradeTotal/grades.size();
     }
-
+//this is a test
 
 
 }
