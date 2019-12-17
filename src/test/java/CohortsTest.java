@@ -16,11 +16,20 @@ public class CohortsTest {
         assertEquals(1,newCohort.getStudents().size());
     }
 
-    @Test public void getStudentsListTest(){
+    @Test
+    public void getStudentsListTest(){
         Cohort newCohort = new Cohort();
         Student james = new Student("james",2);
         newCohort.addStudent(james);
         System.out.println();
     }
 
+    @Test
+    public void findStudentByIdTest(){
+        Cohort newCohort = new Cohort();
+        Student james = new Student("james",2);
+        newCohort.addStudent(james);
+//        assertEquals("james", newCohort.findStudent(2).getName());
+
+    }
 }
